@@ -9,5 +9,3 @@ RUN mkdir -p /usr/src/app
 COPY ./build /usr/src/app
 
 EXPOSE 5000
-
-CMD ['node']
